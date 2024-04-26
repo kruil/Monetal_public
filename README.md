@@ -19,7 +19,7 @@ Offering a clean and intuitive interface, the application makes it super easy an
 ### Main features
 * Completely anonymous, no registration required,
 * All data is stored on your devices
-* SMS/iMessage/Email parsing
+* SMS/iMessage/Email parsing (iOS ready, Android in progress)
 * Sync between devices
 * iOS and Android native apps
 
