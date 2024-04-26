@@ -1,0 +1,466 @@
+// General
+"createAccountsFirst" = "Du hast noch keine Konten. Erstelle diese, um die Synchronisierung zu aktivieren.";
+"learnMore" = "Mehr erfahren";
+"ok" = "Ok";
+"cancel" = "Abbrechen";
+"continue" = "Weitermachen";
+// Menu
+"edit" = "Bearbeiten";
+"done" = "Fertig";
+"delete" = "Löschen";
+"settings" = "Einstellungen";
+"about" = "Über uns";
+"help" = "Hilfe";
+"editTags" = "Tags bearbeiten";
+"addNote" = "Anmerkung hinzufügen";
+"split" = "Aufteilen";
+"executeToday" = "Heute ausführen";
+"wantDeleteAccount" = "Soll das Konto gelöscht werden?";
+"yes" = "Ja";
+"no" = "Nein";
+// Tab names
+"tabAccountsName" = "Konten";
+"tabExpenseName" = "Ausgaben";
+"tabDebts" = "Schulden";
+// Tab Accounts
+"total" = "Insgesamt";
+"allAccounts" = "Alle Konten";
+"holdTotalToMakeNewWallet" = "Halte \"Insgesamt\" gedrückt, um ein neues Wallet zu erstellen. Wallets helfen dir die Konten zu gruppieren.";
+"walletName" = "Neues Wallet";
+"walletShortInfo" = "Wallets helfen dir die Konten zu gruppieren.";
+"selectAccountsForWallet" = "Konten auswählen:";
+"welcomeToMonetal" = "Willkommen bei Monetal!";
+"tapPlusToAddAccount" = "Klicke oben auf \"+\", um dein erstes Konto zu erstellen";
+"tapHereToLoadSampleData" = "Oder tippe hier, um die Beispieldaten zu laden.";
+"help_nowCreateTransaction" = "Konto ist erstellt 🎉! Jetzt ist es Zeit, die Überweisungen hinzuzufügen. Klicke auf „-“ auf dem Konto, um eine Ausgabe hinzuzufügen. Klicke auf „+“, um ein Einnahme hinzuzufügen.";
+"help_checkAccountTransactions" = "Super! Klicke nun auf das Konto, um die zugehörigen Überweisungen zu durchsuchen.";
+"help_checkAllTransactions" = "Klicke auf das Feld \"Insgesamt\" ⬆️, um die Überweisungen aller Konten zu durchsuchen.";
+"account_willBeDeletedButNotTransaction" = "Das Konto wird zwar gelöscht, aber nicht die Überweisungen, die damit verknüpft worden sind.";
+"help_tapHelpProgress" = "Entdecke weitere Funktionen von Monetal, indem du unten auf den Lernfortschritt klicken ⬇️";
+"tip_thisAccountHasFutureTransactions" = "Dieses Konto hat zukünftige Überweisungen, die beim Kontostand bereits berücksichtigt sind. Klicke einmal, um den jetzigen Kontostand anzuzeigen. Klicke doppelt, um die Überweisungen zu durchsuchen.";
+"sortByAlphabet" = "Alphabetisch sortieren";
+"sortByLastUsed" = "Nach zuletzt verwendet sortieren";
+"sortByMaxAmount" = "Nach Betrag sortieren";
+"setCustomOrder" = "Manuel sortieren";
+"sortedByAlphabet" = "Alphabetisch sortiert";
+"sortedByLastUsed" = "Nach zuletzt verwendet sortiert";
+"sortedByMaxAmount" = "Nach Betrag sortiert";
+"sortedInCustomOrder" = "Manuel sortiert";
+"balance" = "Kontostand";
+"last30days" = "letzte 30 Tage";
+"last90days" = "letzte 90 Tage";
+"last180days" = "letzte 180 Tage";
+"last365days" = "letzte 365 Tage";
+"lifelong" = "alle Daten";
+"ratesOutdated" = "Wechselkurse sind veraltet";
+"ratesOutdatedInfo" = "Monetal ist seit langem nicht in der Lage die Wechselkurse zu aktualisieren. Bitte überprüfe die Verfügbarkeit der Website monetal.app in deinem Region. Solltest du Zugangsprobleme haben, kannst ein VPN verwenden.";
+"openMonetalInSafari" = "In Safari überprüfen";
+"featuresDiscovered" = "Lernfortschritt";
+"newSkillAvailable" = "🎁 Neue Funktionen verfügbar!";
+// Backup Alert
+"backupOutdated" = "Das Backup ist nicht eingerichtet!";
+"backupOutdatedAlertTitle" = "Es sieht so aus, als hättest du seit langem kein Backup erstellt";
+"backupOutdatedAlertText" = "Monetal speichert deine Daten nicht auf dem Server, also wenn Ihr Telefon gestohlen wird oder die Anwendung abstürzt, Ihre Daten können nur aus einer Sicherung wiederhergestellt werden. Konfiguriere jetzt ein Backup, damit du nicht alle deine Daten eines Tages verlierst.";
+"backupOutdated.okButton" = "Ok, ich werde das Backup in den Monetal-Einstellungen konfigurieren";
+"backupOutdated.ignoreButton" = "Ich habe keine Angst die Daten zu verlieren";
+// Tab Expenses
+"numberOfTransaction" = "Überweisungen";
+"numberOfTags" = "Kategorien";
+"averageIncomeDay" = "Durchschnittliches Einkommen am Tag";
+"averageExpenseDay" = "Durchschnittliche Kosten am Tag";
+"averageIncomeMonth" = "Durchschnittliches Einkommen im Monat";
+"averageExpenseMonth" = "Durchschnittliche Kosten im Monat";
+"choosePeriod" = "Zeitraum auswählen";
+"doLogTapToOpenBudgetEditor" = "ⓘ Halte die Eigenschaften unten lange gedrückt ↓.";
+"budget_expenses" = "Budgets";
+"daysPassed" = "Tag %@ von %@";
+// Tab Debts
+"debts" = "Schulden";
+"myDebts" = "Meine Schulden";
+"myLoans" = "Meine Darlehen";
+"noDebts" = "Um Schulden oder Schuldner aufzuzeichnen, verwende die Schuldenkategorie beim Erstellen einer Transaktion.";
+"getPaid" = "Zahlung empfangen";
+"pay" = "Bezahlen";
+"forgive" = "Ich erlasse Schulden der anderen";
+"iAmForgiven" = "Mir wurden meine Schulden erlassen";
+// Screen - Add transaction
+"chooseAccount" = "Konto auswählen";
+"note" = "Notiz";
+"noTransactions" = "Keine Überweisungen.";
+"noTransactionsEnableDevice" = "Aktiviere mindestens ein Gerät, um die damit verknüpfte Überweisungen anzuzeigen.";
+"addIncome" = "Einkommen";
+"addExpense" = "Ausgaben";
+"backToAllTags" = "Alle Kategorien";
+"inFuture" = "Geplant";
+"youCanEditTags" = "Du kannst Kategorien bearbeiten und über das obere Menü gruppieren.";
+"youCanAddNoteHoldingTag" = "Um eine Anmerkung hinzuzufügen, halte eine Kategorie gedrückt.";
+"existingDebtWarning" = "Sie fügen einen vorhandenen Schuldendatensatz hinzu, ohne tatsächlich irgendwelche Konten zu ändern. Um eine neue Schuld anzulegen, verwenden Sie beim Anlegen einer Transaktion die Kategorie „Schulden“.";
+"checkRate" = "Wechselkurs";
+// PopupDate
+"neverRepeat" = "Nie wiederholen";
+"repeatEveryWEEKDAY" = "Alle %@ wiederholen";
+"repeatEveryDAYofMonth" = "Monatlich am %@ wiederholen";
+"repeat" = "Wiederholen";
+"sometimesInFuture" = "Eines Tages in der Zukunft";
+"sometimesInFutureHelp" = "Die Transaktion ist für die Zukunft geplant, aber das genaue Datum ist unbekannt. Mit dieser Funktion können Sie Geldmittel beiseite legen und so Mehrausgaben vermeiden.";
+// Screen - Budget editor
+"budgeteditor" = "Budget-Editor";
+"enterScriptHere" = "Script hier eingeben …";
+"welcomeToBudgetEditor" = "Das ist ein Budget-Editor. Hier kannst du benutzerdefinierte Eigenschaften definieren und etwas Nützliches berechnen. Zum Beispiel:\nPlichtAusgaben: Lebensmittel + Rechnungen + Steuern\nSpaß: [-] - PlichtAusgaben\nLetztes Tankvorgang: Fuel.daysago";
+// Screen Receipts
+"receipts" = "Receipts";
+"noReceipts" = "No new receipts.";
+"ignore" = "Ignore";
+"missed" = "Missed:";
+"missed.category" = "category";
+"missed.sum" = "amount";
+"editRules" = "Edit rules";
+"watchVideo" = "Watch video how to create Automation";
+"setupIntentIntro1" = "Receipts are just plain texts from banks:";
+"setupIntentIntro2" = "Monetal can parse this receipt and create transaction automatically:";
+"setupIntentIntro3" = "Since iOS doesn't allow apps directly read Messages and Emails, create new Automation to redirect receipts to Monetal.";
+"setupIntentIntro4" = "After that every receipt you receive will be shown on this screen.";
+"error.emptyReceipt" = "Oops! Monetal has imported a receipt but it's empty. Most likely that you forgot to select a variable in the Intent configuration.";
+// Screen - Receipt Rules
+"receiptsRules.title" = "Receipt Rules";
+"receiptsRules.helpText" = "This is a Receipt Rules Editor. Monetal uses Rules to parse receipts and create transactions. Rules example:\n\n***1588>>Visa card\nWolt>>Groceries\nBaskin>>Cafe//Ice cream\nWolt::0..20>>Fast Food";
+// Screen - Add account
+"whatIsAccount" = "Konto – ist ein Ort, an dem Geld in einer Währung gespeichert wird. Zum Beispiel Bargeld, PayPal, Visa-Karte usw. Um Ihre Finanzen effektiv zu verfolgen, erstellen Sie für jedes Konto im realen Leben sein Gegenstück in Monetal.";
+"addAccount" = "Konto hinzufügen";
+"editAccount" = "Konto bearbeiten";
+"currency" = "Währung";
+"name" = "Titel";
+"exampleAccountName" = "Zum Beispiel Bargeld …";
+"sum" = "Kontostand";
+"countInTotal" = "Beim Gesamtguthaben mitzählen";
+"countInTotalHelp" = "Für Tagesgeldkonten aktivieren. Für Aktien, Investitionen usw. deaktivieren.";
+"correctAccountTitle" = "Der Titel darf nicht leer oder gleich mit anderen Konten und Kategorien sein.";
+"chooseCurrency" = "Währung auswählen";
+"dontChangeCurrencyForAccountWithTransactions" = "Die Währung kann für dieses Konto nicht geändert werden, da es bereits Überweisungen enthält.";
+"wantToAddExpense" = "Ausgaben hinzufügen:";
+"wantToAddIncome" = "Einkommen hinzufügen:";
+// Screen - Transactions
+"transactions" = "Überweisungen";
+"daysAgo1" = "Vor %d Tag";
+"daysAgo2" = "Vor %d Tagen";
+"daysAgo7" = "Vor %d Tagen";
+"afterDays1" = "nach %d Tag";
+"afterDays2" = "nach %d Tagen";
+"afterDays5" = "nach %d Tagen";
+"tomorrow" = "Morgen";
+"today" = "Heute";
+"yesterday" = "Gestern";
+"youCantEditExternalTransactions" = "Sie können keine externen Überweisungen bearbeiten.";
+"confirmTransaction" = "Bestätigen Sie die Transaktion";
+"confirm" = "Bestätigen";
+"reject" = "Ablehnen";
+"confirmTransactions" = "Bestätigen Sie Überweisungen";
+"transactionDays" = "Tage mit Überweisungen:";
+"dayAverage" = "Durschschnittlich pro Tag:";
+"daysInPeriod" = "Tage im Zeitraum:";
+"averageTransactionAmount" = "Durchschnittlicher Betrag:";
+"maxAmount" = "Höchstbetrag:";
+"minAmount" = "Mindestbetrag:";
+"averageInMonth" = "Durchschnittbetrag im Monat:";
+"inFuture2099" = "Eines Tages";
+"youForgiveDebt" = "Sie haben die Schuld erlassen";
+"youAreForgiven" = "Die Schuld wurden Ihnen erlassen";
+"tip_scrollToFutureTransactions" = "Scrolle nach oben, um geplante Transaktionen zu sehen.";
+"createAccount" = "Konto erstellen";
+"createTag" = "Kategorie erstellen";
+"debtStatus" = "Status";
+"debtsPaid" = "Schulden bezahlt.";
+// Screen - Edit tags
+"tagEditor" = "Kategorieneditor";
+"rename" = "Umbenennen";
+"tagCantBeEmpty" = "Die Kategorie darf nicht leer sein.";
+"tagAlreadyExists" = "Das gleiche Kategorie oder Konto existiert bereits.";
+"groupTagHint" = "• Tippe oben auf Plus, um eine neue Kategorie hinzuzufügen. \n• Swipe nach rechts oder links, um Unterkategorien zu erstellen. \n• Zum Umbenennen oder Löschen gedrückt halten.";
+// Screen - Password lock
+"passwordWasSentTo" = "Passwort wurde gesendet an";
+"accessToMonetalLimited" = "So öffnen Sie die App";
+"restorePassword" = "Passwort wiederherstellen";
+"publicMode" = "Öffentlicher Modus";
+// Screen - Command line
+"commandLine" = "Befehlszeile";
+"commandexecuted" = "Der Befehl wird ausgeführt.";
+"checkAllCommandsOnWebsite" = "Mit der Befehlszeile kannst du viele Aspekte des App-Verhaltens und der Benutzeroberfläche anpassen.\nSuchen Sie alle verfügbaren Befehle unter monetal.app";
+"succesfullyImported" = "Erfolgreich importiert.";
+"somethingWrongPleaseCheckCode" = "Etwas ist schiefgelaufen. Bitte überprüfe den Code";
+"errorInCommand" = "Ein Fehler ist aufgetreten. Bitte überprüfe den Code";
+"wantToMergeTags" = "Diese Kategorien zusammenführen?";
+"merge" = "Zusammenfügen";
+// Screen - Settings
+"mainCurrency" = "Hauptwährung";
+"showDecimals" = "Dezimalstellen anzeigen";
+"autohideKeyboard" = "Tastatur automatisch ausblenden";
+"passwordLock" = "Passwortsperre";
+"enterPassword" = "Passwort eingeben";
+"enterEmail" = "Gebe deine E-Mail-Adresse an, für die Passwort Wiederherstellung. (Optional)";
+"colors" = "Farben der Benutzeroberfläche";
+"chooseTheme" = "Thema auswählen";
+"lightTheme" = "Helles Thema";
+"darkTheme" = "Dunkles Thema";
+"autoTheme" = "System";
+"sounds" = "Töne";
+"language" = "Sprache";
+"transferData" = "Auf ein anderes Gerät umziehen";
+"exportDone" = "Erledigt. Öffne jetzt Monetal auf einen anderen Gerät, öffne da zu den Einstellungen und öffne Befehlszeile. Füge Befehl:\nimport ";
+"eraseAllData" = "Alle Daten löschen";
+"wantEraseAllData" = "Möchtest du alle Daten in Monetal löschen?";
+// Backup
+"autobackup" = "Wöchentliches automatisches Backup";
+"disable" = "Deaktivieren";
+"wantDisableAutobackup" = "Automatisches Backup deaktivieren?";
+"backup" = "Backup";
+"restore" = "Wiederherstellen";
+"wantRestoreBackup" = "Möchtest du die Daten aus dem letzten Backup wiederherstellen?";
+"lastBackupDate" = "Letztes Backup: ";
+"never" = "niemals.";
+"errorBackupBackup" = "Monetal ist nicht in der Lage Backup zu erstellen. Überprüfe deine Internetverbindung und versuche es erneut.";
+"errorBackupRestore" = "Monetal ist nicht in der Lage deine Daten zu wiederherstellen. Überprüfe deine Internetverbindung, sowie ob das Backup File sich im iCloud Monetal Ordner sich befindet.";
+// Sync
+"enableSyncCallToAction" = "Aktiviere die Synchronisierung zwischen verschiedenen Geräten, um Finanzen gemeinsam mit anderen Familienmitgliedern zu verwalten.";
+"sync" = "Synchronisation";
+"syncStartDate" = "Startdatum:";
+"syncState" = "Stand:";
+"myDevice" = "Mein Gerät";
+"otherDevices" = "Andere Geräte";
+"wantDeleteDevice" = "Doll dieses Gerät aus der Synchronisierung entfernt werden?";
+"syncwith" = "Öffne nun Monetal auf einem anderen Gerät, öffne Einstellungen und öffne da die Befehlszeile.\nGebe den folgenden Befehl ein: \"syncwith %@\"";
+"enterNewDeviceName" = "Gerätename eingeben";
+"wantDisableSync" = "Synchronisierung zwischen Geräten deaktivieren?";
+"chooseAnotherDeviceName" = "Ein Fehler ist aufgetreten. Überprüfe deine Internetverbindung, sowie Gerätename";
+// Receipts
+"receipts.settingTitle" = "SMS/Email parsing";
+"receipts.enableCallToAction" = "Create transactions automatically from SMS, iMessages, Emails and another sources.";
+"receipts.continueSetup" = "Now go back and find Receipts button in the top menu.";
+"receipts.imported" = "Receipts imported:";
+"receipts.transactionsCreated" = "Transactions created:";
+"receipts.wantDisableReceipts" = "Disable receipts parsing?";
+"receipts.startTrial" = "Receipts parsing is still under development and limited to %@ receipts. Continue to participate in public BETA testing.";
+"receipts.trialIsOver" = "Receipts BETA testing is over, please wait until it will be available in Production. Thank you for participation 🙏";
+// Default tags
+"salary" = "Gehalt";
+"gift" = "Geschenk";
+"investments" = "Investition";
+"food" = "Lebensmittel";
+"restaurants" = "Restaurants";
+"fastFood" = "Fast Food";
+"transport" = "ÖPNV";
+"carsharing" = "Fahrgemeinschaft";
+"taxi" = "Taxi";
+"health" = "Gesundheit";
+"dentist" = "Zahnarzt";
+"medicines" = "Medikamente";
+"insurance" = "Krankenversicherung";
+"home" = "Familie";
+"electronics" = "Elektronik";
+"furniture" = "Möbel";
+"renovation" = "Renovierung";
+"plants" = "Pflanzen";
+"car" = "Auto";
+"carwash" = "Autowäsche";
+"fines" = "Geldbußen";
+"parking" = "Parken";
+"carService" = "Service";
+"gasoline" = "Sprit";
+"entertainment" = "Unterhaltung";
+"cinema" = "Kino";
+"theater" = "Theater";
+"games" = "Spiele";
+"gifts" = "Geschenke";
+"sport" = "Sport";
+"cloth" = "Kleidung";
+"travels" = "Reisen";
+"footwear" = "Schuhwerk";
+"cat" = "Haustiere";
+"education" = "Fortbildung";
+"bills" = "Rechnungen";
+"phone" = "Telefon";
+"taxes" = "Steuern";
+"internet" = "Internet";
+"personalCare" = "Körperpflege";
+"myBestFriend" = "Mein bester Freund";
+"other" = "Sonstiges";
+// Demo data
+"cash" = "Bargeld";
+"mainAccountsWallet" = "Täglich";
+"electronicWallet" = "Elektronisch";
+"workWallet" = "Arbeit";
+"currencyWallet" = "Währungskonten";
+"investmentWallet" = "Investitionen";
+"noteEntertainment" = "Comedy-Club-Tickets";
+"noteCloth" = "Grüne Jeans";
+"noteCar1" = "Reifenwechsel";
+"noteCar2" = "Öl und Filter";
+"Oliver" = "Jürgen";
+"Emily" = "Emilia";
+"Thomas" = "Karl";
+"Alice" = "Ella";
+"Joseph" = "Hans";
+
+// Android features
+"syncErrorWrongCode" = "Fehler. Bitte überprüfe den Sync-Code.";
+"syncErrorTooManyDevices" = "Du hast bereits drei Geräte synchronisiert. Entferne eins davon, um ein neues hinzufügen zu können.";
+"networkError" = "Netzwerkproblem ist aufgetreten. Bitte versuche es erneut.";
+"addDevice" = "Gerät hinzufügen";
+// Settings
+"enableBackupCallToAction" = "Monetal speichert deine Daten nicht auf dem Server, daher ist es sehr wichtig, regelmäßig ein Backup zu machen.";
+// Widgets
+"widgetSettings" = "Widget Einstellungen";
+"accountDeleted" = "Konto ist gelöscht";
+"hideSum" = "Kontostand verstecken";
+"clickToAdjust" = "Zum Anpassen antippen";
+"selectAccount" = "Bitte Konto auswählen";
+"account" = "Konto";
+"notSelected" = "Nicht ausgewählt";
+// Reports
+"reportWillBeSentTo" = "Bericht wird am Ende des Monats an %s gesendet.";
+"enterEmailForReports" = "E-Mail eingeben:";
+"expense" = "Kosten:";
+"income" = "Einnahmen:";
+"reportCaption" = "Monetal. Bericht seit ";
+"ExportToDropbox" = "Monatsberichte exportieren";
+"monthReportsToYorEmail" = "an deine E-Mail.";
+// Credit accounts
+"debt" = "Schuld: ";
+"overpayment" = "Überzahlung: ";
+"creditLimit" = "Guthabenbetrag:";
+"dontEffectToBalance" = "Nicht im Saldo berücksichtigen";
+"creditAccount" = "Darlehkonto";
+
+// -------- NO NEED TO TRANSLATE -------- //
+// Errors
+"saveErrorTitle" = "Save error";
+"saveErrorText" = "Last data saving was completed with error, but Monetal has restored your data. Verify your data for latest changes. Also please enable an autobackup to prevent data lost.\n\nPlease don't kill app immediately after exiting, it needs time to save data. Some devices can also limit background execution when Power Saving Mode is enabled.";
+// Page: About
+"mySpeach" = "Thank you for using Monetal! If you know how to make it even better, please email me.";
+"forumTitleLabel" = "Join forum discussion";
+"emailLabel" = "Email";
+"visitSiteLabel" = "Visit site";
+"forumButton" = "MacRumors thread";
+"followOnTwitter" = "Follow me on X/Twitter";
+// Screen - Help
+"basicFeatures" = "Basic features";
+"otherFeatures" = "Other features";
+"learnMoreHelp" = "Learn more";
+
+"skill_createAccount" = "Create account";
+"skill_createAccount_help" = "To add an account click on the [+] on the top of the main screen.";
+
+"skill_createTransaction" = "Add transaction";
+"skill_createTransaction_help" = "To create a transaction, use the [+] and [-] buttons on the account.";
+
+"skill_browseAccountTransactions" = "Browse account transactions";
+"skill_browseAccountTransactions_help" = "Click on an account to view its transactions.";
+
+"skill_browseTotalTransactions" = "Browse all transactions";
+"skill_browseTotalTransactions_help" = "Click on the Total panel to see transactions from all accounts.";
+
+"skill_editTags" = "Edit and group categories";
+"skill_editTags_help" = "You can edit categories from the menu when creating a transaction.";
+
+"skill_noteFromTag" = "Add note to transaction";
+"skill_noteFromTag_help" = "To add a note while creating a transaction hold the category.";
+
+"skill_transfer" = "Transfer between accounts";
+"skill_transfer_help" = "To create a transfer between accounts, switch to transfer categories from top menu when creating a transaction.";
+
+"skill_changeDate" = "Change transaction date";
+"skill_changeDate_help" = "When creating a transaction, click on the date to change it.";
+
+"skill_checkHelp" = "Read Help";
+"skill_checkHelp_help" = "Help is available from the application’s main menu.";
+
+"skill_browseExtendedTagInfo" = "Filter particular category";
+"skill_browseExtendedTagInfo_help" = "Tap on account or Total panel to open transactions screen. Here if you tap any category on particular transaction Monetal will show all transactions with this category.";
+
+"skill_checkMonthYearTotal" = "Month, year and total info";
+"skill_checkMonthYearTotal_help" = "On Expense tab you can find left and right arrows in the bottom. Left arrow allows to browse previous monthes, the right one switches years and total in the end. Switch to the Total period to accomplish this task.";
+
+"skill_holdMoneyForFuture" = "Plan future transaction";
+"skill_holdMoneyForFuture_help" = "You can put money aside to prevent overspending. When creating a new transaction, simply set the date in future. After that account amount will be shown considering the future payment, and the [~] sign will appear in front of it. To see actual amount click on account once. You can find planned transactions above all other in the Transaction list, just scroll to the top.";
+
+"skill_createWallet" = "Group accounts into wallets";
+"skill_createWallet_help" = "You can use wallets to group accounts. Just open accounts tab, click Total title on Total panel and follow instructions. If it needs one account can be linked to different wallets.";
+
+"skill_recurrentTransaction" = "Recurrent transactions";
+"skill_recurrentTransaction_help" = "While creating a new transaction click [Date] button and set a recurrent mode. Later in appointed day you will need to confirm or reject transaction. Add #force to transaction note to apply it without confirmation.";
+
+"skill_tapToConvertInDefaultCurrency" = "Transaction sum popup";
+"skill_tapToConvertInDefaultCurrency_help" = "Tap on sum on foreign currency transaction to see its converted amount.";
+
+"skill_addExistingDebt" = "Add existing debt or loan";
+"skill_addExistingDebt_help" = "To enter existing debts or loans use [+] buttons in [Debts] tab. This will not change any account amount.";
+
+"skill_addDebt" = "Add new debt or loan";
+"skill_addDebt_help" = "Monetal can manage debts and loans. To enter them use a system category [Debts]. Account amount would be effected.";
+
+"skill_publicMode" = "Public mode";
+"skill_publicMode_help" = "Put a [.] before entering password to enable Public mode. Public mode hides account amounts to keep your privacy.";
+
+"skill_splitTransaction" = "Split transaction";
+"skill_splitTransaction_help" = "Use Split function to extract part of the transaction amount to another category. This is convenient, for example, if you bought different items with one receipt. You enter the total expense, and then separate out other expenses from it. Split function is available in the context menu when you long click on a transaction on the transactions screen.";
+
+"skill_searchTransactions" = "Search in transactions";
+"skill_searchTransactions_help" = "Use search icon in the top right corner while browsing transactions. It finds all transactions which notes contains inputed text. There is also several patterns which you can use in specific cases. Here some examples:\n\"*\" - transactions with note\n\"+\" - incomes\n\"-\" - expenses\n\"<>\" - transfers between accounts\n\">1200\" - transactions with amount > 1200\n\"<400\" - transactions with amount <400";
+
+"skill_filterGroupTags" = "Browse group transactions";
+"skill_filterGroupTags_help" = "Open Expenses tab and do a long press on any group category. Monetal will show all sub-categories transaction history.";
+
+"skill_checkMonthYearTotalByPicker" = "Period picker";
+"skill_checkMonthYearTotalByPicker_help" = "Besides bottom buttons, you can switch periods by clicking on current period name on Month panel.";
+
+"skill_mergeOldTags" = "Merge outdated categories";
+"skill_mergeOldTags_help" = "Old categories can be merged to others. \nOpen Settings -> Command Line and enter a command:\nWedding > Holidays\nNow all Wedding transactions have Holidays category with a \"Wedding\" comment. Use merge tool to join categories which are not actual anymore.";
+
+"skill_transactionFromSumDifference" = "Expense from account editing";
+"skill_transactionFromSumDifference_help" = "Sometimes you need to correct account amount because you forgot to log some transactions. If amount difference is negative Monetal suggests to create an expense with this difference.";
+
+"skill_shareTransactions" = "Share transactions";
+"skill_shareTransactions_help" = "You can copy transactions as text and share with somebody by clicking Share button at the top of transactions list. For example, you can demonstrate to debitors how the debt was formed.";
+
+"skill_budgetsEditor" = "Budget editor";
+"skill_budgetsEditor_help" = "Do a long press on properties in Expense tab to open Budget editor. Use it to add custom properties and calculate something useful.";
+
+"skill_travelMode" = "Travel mode";
+"skill_travelMode_help" = "Travel expenses are usually different from everyday expenses. Use Travel mode to track each category separately and get complete report at the end.
+To enable Travel mode create new category for your journey \"Brazil2024\". Then add an expense to this category with a note \"#global\". Now all new transactions will be related to this global category.";
+
+"skill_reorderAccounts" = "Sort accounts";
+"skill_reorderAccounts_help" = "Use Sorting button below accounts to change accounts order. Different wallets can have different order types.";
+
+"skill_accountsHistory" = "Balance history";
+"skill_accountsHistory_help" = "Monetal records states of accounts every day and builds a chart located under the accounts. The more frequently you use Monetal, the more accurate your data will be. Click on the chart to view historical data.";
+
+"skill_sync" = "Sync between devices";
+"skill_sync_help" = "Sync between devices works very flexibly and assumes that devices belong to different people. You can enable Sync in the Settings.\n\n- Accounts with the same names become common and can be changed from any device. Monetal does not synchronize amounts in accounts, but only takes into account transactions that affect them. Identical categories also become shared, and now you can view general statistics for them.\n\n- Editing transactions is only possible from the device from which it was created.\n\n- Sync works automatically when data changes on any device. If the sync status number is the same on all devices, then they are already synced.\n\n- If the amounts on the accounts on different devices do not match, edit them before or after the start of synchronization, bringing them to the same value. This will not affect your transaction history in any way.";
+
+"skill_receipts" = "SMS/Email parsing";
+"skill_receipts_help" = "Monetal can parse Email, SMS, and other sources and create corresponding transactions automatically. You can enable this feature in the Settings.";
+
+"skill_budgets" = "Expense limits";
+"skill_budgets_help" = "Use Budget editor to define limits for particular categories and track spending progress. Limits appear at the top of the Expenses tab.\nGrocery < 1200\nGames + Cinema < 500";
+
+"readOnlineDocumentation" = "Check online documentation";
+
+// Help skills
+
+"helpProjectTitle" = "Help Monetal";
+"helpProjectSubtitle" = "If you like this project and want it to develop further, please consider to support it.";
+
+"skill_rateApp" = "Rate Monetal";
+"skill_rateApp_help" = "Mobile app ratings are crucial for mobile apps because they serve as a direct reflection of user satisfaction and can significantly impact the app's visibility and success.";
+
+"skill_promote" = "Spread the word";
+"skill_promote_help" = "Share Monetal with your friends and followers on your favorite social networks. Your support means the world to me!";
+
+"skill_translate" = "Help with translations";
+"skill_translate_help" = "I do my best to improve translations. If you'd like to assist with translating to your native language or if you come across any translation errors, please reach me out.";
+
+"skill_reportBug" = "Report a bug";
+"skill_reportBug_help" = "Please report any bug you have found. We all want Monetal to be a reliable software.";
+
+"skill_donate" = "Donate to project";
+"skill_donate_help" = "If it's possible, please consider making a donation. And don't forget to write to support so I can thank you personally!";

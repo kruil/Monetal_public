@@ -1,0 +1,466 @@
+// General
+"createAccountsFirst" = "您尚未擁有帳戶，需要創建帳戶以啟用同步功能。";
+"learnMore" = "了解更多";
+"ok" = "好的";
+"cancel" = "取消";
+"continue" = "繼續";
+// Menu
+"edit" = "編輯";
+"done" = "完成";
+"delete" = "刪除";
+"settings" = "設定";
+"about" = "關於";
+"help" = "幫助";
+"editTags" = "編輯類別";
+"addNote" = "添加備註";
+"split" = "拆分";
+"executeToday" = "立即添加至今日";
+"wantDeleteAccount" = "確認刪除該帳戶？";
+"yes" = "是";
+"no" = "否";
+// Tab names
+"tabAccountsName" = "帳戶";
+"tabExpenseName" = "收支";
+"tabDebts" = "債務";
+// Tab Accounts
+"total" = "總計";
+"allAccounts" = "全部帳戶";
+"holdTotalToMakeNewWallet" = "長按“總計”可以設定一個新錢包。錢包可以輔助整理帳戶。";
+"walletName" = "新錢包";
+"walletShortInfo" = "錢包可以整理帳戶。";
+"selectAccountsForWallet" = "選擇錢包中包含的帳戶：";
+"welcomeToMonetal" = "歡迎來到 Monetal ！";
+"tapPlusToAddAccount" = "點擊上面的“+”添加您的第一個帳戶";
+"tapHereToLoadSampleData" = "或者點擊此處來加載示例數據。";
+"help_nowCreateTransaction" = "帳戶已創建🎉。現在嘗試添加交易記錄吧。點擊帳戶左側的“-”按鈕可以記錄支出。點擊帳戶右側的“+”按鈕可以記錄收入。";
+"help_checkAccountTransactions" = "太棒了！現在點擊帳戶就可以瀏覽交易記錄啦。";
+"help_checkAllTransactions" = "點擊上方⬆️的“總計”右側的數字就可以瀏覽所有帳戶的交易。";
+"account_willBeDeletedButNotTransaction" = "將被刪除。此操作不會刪除任何與此帳戶相關的交易。";
+"help_tapHelpProgress" = "點擊下方的“學習進度”⬇️，探索 Monetal 的其他功能";
+"tip_thisAccountHasFutureTransactions" = "該帳戶未來有記錄。單擊可查看實際金額。雙擊可瀏覽具體交易。";
+"sortByAlphabet" = "按字母排序";
+"sortByLastUsed" = "按最近使用排序";
+"sortByMaxAmount" = "按金額排序";
+"setCustomOrder" = "設置自定義排序";
+"sortedByAlphabet" = "按字母排序";
+"sortedByLastUsed" = "按最近使用排序";
+"sortedByMaxAmount" = "按金額排序";
+"sortedInCustomOrder" = "按自定義排序";
+"balance" = "結餘";
+"last30days" = "過去 30 天";
+"last90days" = "過去 90 天";
+"last180days" = "過去 180 天";
+"last365days" = "過去 365 天";
+"lifelong" = "終身";
+"ratesOutdated" = "匯率已經過時";
+"ratesOutdatedInfo" = "Monetal 已經很久無法更新匯率了。請檢查您所在國家或地區是否可以訪問網站：monetal.app 。如果您遇到訪問問題，建議使用 VPN 。";
+"openMonetalInSafari" = "在 Safari 中進行驗證";
+"featuresDiscovered" = "學習進度";
+"newSkillAvailable" = "🎁 新功能上線啦！";
+// Backup Alert
+"backupOutdated" = "別忘記備份！";
+"backupOutdatedAlertTitle" = "你已經很久沒有備份啦";
+"backupOutdatedAlertText" = "Monetal 不會將您的數據存儲在服務器上。因此，如果手機丟失或應用程序崩潰，您只能從備份中恢復數據。\n請立即配置備份，以免丟失所有數據。";
+"backupOutdated.okButton" = "好，我去備份";
+"backupOutdated.ignoreButton" = "沒事，我不怕數據丟失";
+// Tab Expenses
+"numberOfTransaction" = "交易數";
+"numberOfTags" = "類別數";
+"averageIncomeDay" = "每日平均收入";
+"averageExpenseDay" = "每日平均支出";
+"averageIncomeMonth" = "每月平均收入";
+"averageExpenseMonth" = "每月平均支出";
+"choosePeriod" = "選擇期間";
+"doLogTapToOpenBudgetEditor" = "ⓘ 長按下方的統計數據 ↓";
+"budget_expenses" = "預算";
+"daysPassed" = "第%@天，共%@";
+// Tab Debts
+"debts" = "債務";
+"myDebts" = "我的應付款項";
+"myLoans" = "我的應收款項";
+"noDebts" = "要記錄債務或債務相關人，請在創建交易時使用債務類別。";
+"getPaid" = "收到還款";
+"pay" = "還款";
+"forgive" = "免除此債務";
+"iAmForgiven" = "債務已被免除";
+// Screen - Add transaction
+"chooseAccount" = "選擇帳戶";
+"note" = "備註";
+"noTransactions" = "無交易。";
+"noTransactionsEnableDevice" = "同步已開啟，您需要啟用至少一台設備才能顯示其交易信息。";
+"addIncome" = "收入";
+"addExpense" = "支出";
+"backToAllTags" = "所有類別";
+"inFuture" = "預定交易";
+"youCanEditTags" = "您可以通過右上角菜單進入類別編輯，並可對它們進行分組。";
+"youCanAddNoteHoldingTag" = "長按類別可添加備註。";
+"existingDebtWarning" = "您正在新增現有的債務記錄，但實際上並未更改任何帳戶。若要建立新債務，請在建立交易時使用債務類別。";
+"checkRate" = "確認匯率";
+// PopupDate
+"neverRepeat" = "永不重複";
+"repeatEveryWEEKDAY" = "每 %@重複";
+"repeatEveryDAYofMonth" = "每 %@ 月重複";
+"repeat" = "重複";
+"sometimesInFuture" = "未來某天";
+"sometimesInFutureHelp" = "該交易計劃在未來進行，但具體日期未知。此功能可讓您預留一些資金並避免超支。";
+// Screen - Budget editor
+"budgeteditor" = "預算編輯器";
+"enterScriptHere" = "在此輸入指令……";
+"welcomeToBudgetEditor" = "這是預算編輯器。在這裡您可以自定義一些統計屬性並進行計算。例如：\n必需品：食品 + 帳單 + 稅費\n非必需品: [-] - 必需品\n上次加油時間：加油.daysago";
+// Screen Receipts
+"receipts" = "Receipts";
+"noReceipts" = "No new receipts.";
+"ignore" = "Ignore";
+"missed" = "Missed:";
+"missed.category" = "category";
+"missed.sum" = "amount";
+"editRules" = "Edit rules";
+"watchVideo" = "Watch video how to create Automation";
+"setupIntentIntro1" = "Receipts are just plain texts from banks:";
+"setupIntentIntro2" = "Monetal can parse this receipt and create transaction automatically:";
+"setupIntentIntro3" = "Since iOS doesn't allow apps directly read Messages and Emails, create new Automation to redirect receipts to Monetal.";
+"setupIntentIntro4" = "After that every receipt you receive will be shown on this screen.";
+"error.emptyReceipt" = "Oops! Monetal has imported a receipt but it's empty. Most likely that you forgot to select a variable in the Intent configuration.";
+// Screen - Receipt Rules
+"receiptsRules.title" = "Receipt Rules";
+"receiptsRules.helpText" = "This is a Receipt Rules Editor. Monetal uses Rules to parse receipts and create transactions. Rules example:\n\n***1588>>Visa card\nWolt>>Groceries\nBaskin>>Cafe//Ice cream\nWolt::0..20>>Fast Food";
+// Screen - Add account
+"whatIsAccount" = "账戶用於記錄以某一種貨幣存放的資金。例如，現金、PayPal、Visa 卡等。為了更好地跟踪和管理您的財務狀況，建議您在Monetal中，為您現實生活中的每個帳戶創建一個相對應的帳戶。";
+"addAccount" = "新建帳戶";
+"editAccount" = "編輯帳戶";
+"currency" = "貨幣";
+"name" = "名稱";
+"exampleAccountName" = "例如：現金……";
+"sum" = "合計";
+"countInTotal" = "計入總計";
+"countInTotalHelp" = "為日常使用帳戶啟用此功能。定期存款、投資等帳戶請禁用。";
+"correctAccountTitle" = "名稱不可為空且不可與其他帳戶、類別相同。";
+"chooseCurrency" = "選擇貨幣";
+"dontChangeCurrencyForAccountWithTransactions" = "此帳戶已存在交易，無法修改貨幣。";
+"wantToAddExpense" = "添加支出：";
+"wantToAddIncome" = "添加收入：";
+// Screen - Transactions
+"transactions" = "交易";
+"daysAgo1" = "%d 天前";
+"daysAgo2" = "%d 天前";
+"daysAgo7" = "%d 天前";
+"afterDays1" = "%d 天後";
+"afterDays2" = "%d 天後";
+"afterDays5" = "%d 天後";
+"tomorrow" = "明天";
+"today" = "今天";
+"yesterday" = "昨天";
+"youCantEditExternalTransactions" = "您無法編輯外部交易。";
+"confirmTransaction" = "確認交易";
+"confirm" = "確認";
+"reject" = "拒絕";
+"confirmTransactions" = "確認交易";
+"transactionDays" = "有交易的天數：";
+"dayAverage" = "每日平均：";
+"daysInPeriod" = "期間天數：";
+"averageTransactionAmount" = "平均交易額：";
+"maxAmount" = "最大金額：";
+"minAmount" = "最小金額：";
+"averageInMonth" = "每月平均：";
+"inFuture2099" = "未來某天";
+"youForgiveDebt" = "你免除了此債務";
+"youAreForgiven" = "你的債務已被免除";
+"tip_scrollToFutureTransactions" = "滾動到頂部查看預定交易。";
+"createAccount" = "創建帳戶";
+"createTag" = "創建類別";
+"debtStatus" = "債務狀態";
+"debtsPaid" = "債務已結清";
+// Screen - Edit tags
+"tagEditor" = "類別編輯器";
+"rename" = "重命名";
+"tagCantBeEmpty" = "類別名不能為空。";
+"tagAlreadyExists" = "類別或帳戶已存在。";
+"groupTagHint" = "• 點擊上方加號可添加新類別。\n• 左右滑動類別可創建子類別。\n• 長按類別可重命名或刪除。";
+// Screen - Password lock
+"passwordWasSentTo" = "密碼已發送至";
+"accessToMonetalLimited" = "打開應用程序";
+"restorePassword" = "恢復密碼";
+"publicMode" = "隱私模式";
+// Screen - Command line
+"commandLine" = "命令行";
+"commandexecuted" = "命令已執行";
+"checkAllCommandsOnWebsite" = "通過命令行，您可以個性化調整應用的界面與許多行為。\n monetal.app 提供了所有的命令供您查詢";
+"succesfullyImported" = "導入成功。";
+"somethingWrongPleaseCheckCode" = "出錯啦。請檢查錯誤碼。";
+"errorInCommand" = "錯誤。請檢查命令中的錯誤。";
+"wantToMergeTags" = "確定合併類別嗎？";
+"merge" = "合併";
+// Screen - Settings
+"mainCurrency" = "主要貨幣";
+"showDecimals" = "顯示小數";
+"autohideKeyboard" = "自動隱藏鍵盤";
+"passwordLock" = "密碼鎖";
+"enterPassword" = "輸入密碼";
+"enterEmail" = "（選填）如果您希望能夠恢復密碼，請輸入電子郵件地址。";
+"colors" = "界面顏色";
+"chooseTheme" = "選擇主題";
+"lightTheme" = "淺色主題";
+"darkTheme" = "深色主題";
+"autoTheme" = "跟隨系統";
+"sounds" = "提示音";
+"language" = "語言";
+"transferData" = "轉移至另一台設備";
+"exportDone" = "完成。現在在其他設備上開啟 Monetal，進入“設定”並開啟“命令行”。輸入命令：\nimport ";
+"eraseAllData" = "刪除所有數據";
+"wantEraseAllData" = "您確認刪除 Monetal 中的所有數據嗎？";
+// Backup
+"autobackup" = "每周自動備份";
+"disable" = "禁用";
+"wantDisableAutobackup" = "確定禁用自動備份？";
+"backup" = "備份";
+"restore" = "恢復";
+"wantRestoreBackup" = "您確認從上次的備份中恢復數據嗎？";
+"lastBackupDate" = "最後備份： ";
+"never" = "從不。";
+"errorBackupBackup" = "Monetal 無法進行備份。請檢查互聯網連接是否正常並重試。";
+"errorBackupRestore" = "Monetal 無法恢復您的數據。請檢查互聯網連接是否正常並查看 Monetal 文件夾中是否包含備份文件。";
+// Sync
+"enableSyncCallToAction" = "啟用設備間同步，以便與其他家庭成員共同管理財務。";
+"sync" = "設備間同步";
+"syncStartDate" = "開始日期：";
+"syncState" = "同步狀態號：";
+"myDevice" = "我的設備";
+"otherDevices" = "其他設備";
+"wantDeleteDevice" = "確認從同步中移除此設備嗎？";
+"syncwith" = "現在在另一台設備上開啟 Monetal，轉到“設定”並開啟“命令行”。\n輸入\"syncwith %@\"";
+"enterNewDeviceName" = "輸入新設備名稱";
+"wantDisableSync" = "確認禁用設備之間的同步嗎？";
+"chooseAnotherDeviceName" = "錯誤。請使用其他設備名稱或檢查您的連接。";
+// Receipts
+"receipts.settingTitle" = "SMS/Email parsing";
+"receipts.enableCallToAction" = "Create transactions automatically from SMS, iMessages, Emails and another sources.";
+"receipts.continueSetup" = "Now go back and find Receipts button in the top menu.";
+"receipts.imported" = "Receipts imported:";
+"receipts.transactionsCreated" = "Transactions created:";
+"receipts.wantDisableReceipts" = "Disable receipts parsing?";
+"receipts.startTrial" = "Receipts parsing is still under development and limited to %@ receipts. Continue to participate in public BETA testing.";
+"receipts.trialIsOver" = "Receipts BETA testing is over, please wait until it will be available in Production. Thank you for participation 🙏";
+// Default tags
+"salary" = "薪水";
+"gift" = "禮物";
+"investments" = "投資物";
+"food" = "雜貨";
+"restaurants" = "餐廳";
+"fastFood" = "快餐";
+"transport" = "交通";
+"carsharing" = "汽車共享";
+"taxi" = "計程車";
+"health" = "健康";
+"dentist" = "牙醫";
+"medicines" = "藥物";
+"insurance" = "醫療保險";
+"home" = "家庭";
+"electronics" = "電子產品";
+"furniture" = "家具";
+"renovation" = "裝潢";
+"plants" = "植物";
+"car" = "汽車";
+"carwash" = "洗車";
+"fines" = "罰款";
+"parking" = "停車處";
+"carService" = "服務";
+"gasoline" = "加油";
+"entertainment" = "娛樂";
+"cinema" = "電影";
+"theater" = "劇院";
+"games" = "遊戲";
+"gifts" = "禮物";
+"sport" = "運動";
+"cloth" = "衣物";
+"travels" = "旅遊";
+"footwear" = "鞋類";
+"cat" = "寵物";
+"education" = "教育";
+"bills" = "帳單";
+"phone" = "電話";
+"taxes" = "稅收";
+"internet" = "網際網路";
+"personalCare" = "個人護理";
+"myBestFriend" = "我最好的朋友";
+"other" = "其他";
+// Demo data
+"cash" = "現金";
+"mainAccountsWallet" = "每日";
+"electronicWallet" = "電子錢包";
+"workWallet" = "工作錢包";
+"currencyWallet" = "現金錢包";
+"investmentWallet" = "投資錢包";
+"noteEntertainment" = "喜劇表演門票";
+"noteCloth" = "綠色牛仔褲";
+"noteCar1" = "汽車檢修";
+"noteCar2" = "機油和過濾器";
+"Oliver" = "奧利佛";
+"Emily" = "艾米麗";
+"Thomas" = "托馬斯";
+"Alice" = "愛麗絲";
+"Joseph" = "約瑟夫";
+
+// Android features
+"syncErrorWrongCode" = "錯誤。請檢查同步碼是否正確。";
+"syncErrorTooManyDevices" = "目前最高只支持同步三台設備。如需添加新設備，您需要移除已同步的某個設備。";
+"networkError" = "網絡問題";
+"addDevice" = "添加設備";
+// Settings
+"enableBackupCallToAction" = "Monetal 不會將您的數據存儲在服務器上，因此時常進行備份非常重要。";
+// Widgets
+"widgetSettings" = "小組件設置";
+"accountDeleted" = "帳戶已刪除";
+"hideSum" = "隱藏合計金額";
+"clickToAdjust" = "點擊調整";
+"selectAccount" = "請選擇帳戶";
+"account" = "帳戶";
+"notSelected" = "尚未選擇帳戶";
+// Reports
+"reportWillBeSentTo" = "月度報告將於月底發送至 %s 。";
+"enterEmailForReports" = "輸入電子郵箱：";
+"expense" = "費用：";
+"income" = "收入：";
+"reportCaption" = "來自Monetal的月度報告 ";
+"ExportToDropbox" = "導出月度報告";
+"monthReportsToYorEmail" = "到您的電子郵件。";
+// Credit accounts
+"debt" = "債務： ";
+"overpayment" = "超出信用額度：";
+"creditLimit" = "信用額度：";
+"dontEffectToBalance" = "不計入結餘";
+"creditAccount" = "信用帳戶";
+
+// -------- NO NEED TO TRANSLATE -------- //
+// Errors
+"saveErrorTitle" = "Save error";
+"saveErrorText" = "Last data saving was completed with error, but Monetal has restored your data. Verify your data for latest changes. Also please enable an autobackup to prevent data lost.\n\nPlease don't kill app immediately after exiting, it needs time to save data. Some devices can also limit background execution when Power Saving Mode is enabled.";
+// Page: About
+"mySpeach" = "Thank you for using Monetal! If you know how to make it even better, please email me.";
+"forumTitleLabel" = "Join forum discussion";
+"emailLabel" = "Email";
+"visitSiteLabel" = "Visit site";
+"forumButton" = "MacRumors thread";
+"followOnTwitter" = "Follow me on X/Twitter";
+// Screen - Help
+"basicFeatures" = "Basic features";
+"otherFeatures" = "Other features";
+"learnMoreHelp" = "Learn more";
+
+"skill_createAccount" = "Create account";
+"skill_createAccount_help" = "To add an account click on the [+] on the top of the main screen.";
+
+"skill_createTransaction" = "Add transaction";
+"skill_createTransaction_help" = "To create a transaction, use the [+] and [-] buttons on the account.";
+
+"skill_browseAccountTransactions" = "Browse account transactions";
+"skill_browseAccountTransactions_help" = "Click on an account to view its transactions.";
+
+"skill_browseTotalTransactions" = "Browse all transactions";
+"skill_browseTotalTransactions_help" = "Click on the Total panel to see transactions from all accounts.";
+
+"skill_editTags" = "Edit and group categories";
+"skill_editTags_help" = "You can edit categories from the menu when creating a transaction.";
+
+"skill_noteFromTag" = "Add note to transaction";
+"skill_noteFromTag_help" = "To add a note while creating a transaction hold the category.";
+
+"skill_transfer" = "Transfer between accounts";
+"skill_transfer_help" = "To create a transfer between accounts, switch to transfer categories from top menu when creating a transaction.";
+
+"skill_changeDate" = "Change transaction date";
+"skill_changeDate_help" = "When creating a transaction, click on the date to change it.";
+
+"skill_checkHelp" = "Read Help";
+"skill_checkHelp_help" = "Help is available from the application’s main menu.";
+
+"skill_browseExtendedTagInfo" = "Filter particular category";
+"skill_browseExtendedTagInfo_help" = "Tap on account or Total panel to open transactions screen. Here if you tap any category on particular transaction Monetal will show all transactions with this category.";
+
+"skill_checkMonthYearTotal" = "Month, year and total info";
+"skill_checkMonthYearTotal_help" = "On Expense tab you can find left and right arrows in the bottom. Left arrow allows to browse previous monthes, the right one switches years and total in the end. Switch to the Total period to accomplish this task.";
+
+"skill_holdMoneyForFuture" = "Plan future transaction";
+"skill_holdMoneyForFuture_help" = "You can put money aside to prevent overspending. When creating a new transaction, simply set the date in future. After that account amount will be shown considering the future payment, and the [~] sign will appear in front of it. To see actual amount click on account once. You can find planned transactions above all other in the Transaction list, just scroll to the top.";
+
+"skill_createWallet" = "Group accounts into wallets";
+"skill_createWallet_help" = "You can use wallets to group accounts. Just open accounts tab, click Total title on Total panel and follow instructions. If it needs one account can be linked to different wallets.";
+
+"skill_recurrentTransaction" = "Recurrent transactions";
+"skill_recurrentTransaction_help" = "While creating a new transaction click [Date] button and set a recurrent mode. Later in appointed day you will need to confirm or reject transaction. Add #force to transaction note to apply it without confirmation.";
+
+"skill_tapToConvertInDefaultCurrency" = "Transaction sum popup";
+"skill_tapToConvertInDefaultCurrency_help" = "Tap on sum on foreign currency transaction to see its converted amount.";
+
+"skill_addExistingDebt" = "Add existing debt or loan";
+"skill_addExistingDebt_help" = "To enter existing debts or loans use [+] buttons in [Debts] tab. This will not change any account amount.";
+
+"skill_addDebt" = "Add new debt or loan";
+"skill_addDebt_help" = "Monetal can manage debts and loans. To enter them use a system category [Debts]. Account amount would be effected.";
+
+"skill_publicMode" = "Public mode";
+"skill_publicMode_help" = "Put a [.] before entering password to enable Public mode. Public mode hides account amounts to keep your privacy.";
+
+"skill_splitTransaction" = "Split transaction";
+"skill_splitTransaction_help" = "Use Split function to extract part of the transaction amount to another category. This is convenient, for example, if you bought different items with one receipt. You enter the total expense, and then separate out other expenses from it. Split function is available in the context menu when you long click on a transaction on the transactions screen.";
+
+"skill_searchTransactions" = "Search in transactions";
+"skill_searchTransactions_help" = "Use search icon in the top right corner while browsing transactions. It finds all transactions which notes contains inputed text. There is also several patterns which you can use in specific cases. Here some examples:\n\"*\" - transactions with note\n\"+\" - incomes\n\"-\" - expenses\n\"<>\" - transfers between accounts\n\">1200\" - transactions with amount > 1200\n\"<400\" - transactions with amount <400";
+
+"skill_filterGroupTags" = "Browse group transactions";
+"skill_filterGroupTags_help" = "Open Expenses tab and do a long press on any group category. Monetal will show all sub-categories transaction history.";
+
+"skill_checkMonthYearTotalByPicker" = "Period picker";
+"skill_checkMonthYearTotalByPicker_help" = "Besides bottom buttons, you can switch periods by clicking on current period name on Month panel.";
+
+"skill_mergeOldTags" = "Merge outdated categories";
+"skill_mergeOldTags_help" = "Old categories can be merged to others. \nOpen Settings -> Command Line and enter a command:\nWedding > Holidays\nNow all Wedding transactions have Holidays category with a \"Wedding\" comment. Use merge tool to join categories which are not actual anymore.";
+
+"skill_transactionFromSumDifference" = "Expense from account editing";
+"skill_transactionFromSumDifference_help" = "Sometimes you need to correct account amount because you forgot to log some transactions. If amount difference is negative Monetal suggests to create an expense with this difference.";
+
+"skill_shareTransactions" = "Share transactions";
+"skill_shareTransactions_help" = "You can copy transactions as text and share with somebody by clicking Share button at the top of transactions list. For example, you can demonstrate to debitors how the debt was formed.";
+
+"skill_budgetsEditor" = "Budget editor";
+"skill_budgetsEditor_help" = "Do a long press on properties in Expense tab to open Budget editor. Use it to add custom properties and calculate something useful.";
+
+"skill_travelMode" = "Travel mode";
+"skill_travelMode_help" = "Travel expenses are usually different from everyday expenses. Use Travel mode to track each category separately and get complete report at the end.
+To enable Travel mode create new category for your journey \"Brazil2024\". Then add an expense to this category with a note \"#global\". Now all new transactions will be related to this global category.";
+
+"skill_reorderAccounts" = "Sort accounts";
+"skill_reorderAccounts_help" = "Use Sorting button below accounts to change accounts order. Different wallets can have different order types.";
+
+"skill_accountsHistory" = "Balance history";
+"skill_accountsHistory_help" = "Monetal records states of accounts every day and builds a chart located under the accounts. The more frequently you use Monetal, the more accurate your data will be. Click on the chart to view historical data.";
+
+"skill_sync" = "Sync between devices";
+"skill_sync_help" = "Sync between devices works very flexibly and assumes that devices belong to different people. You can enable Sync in the Settings.\n\n- Accounts with the same names become common and can be changed from any device. Monetal does not synchronize amounts in accounts, but only takes into account transactions that affect them. Identical categories also become shared, and now you can view general statistics for them.\n\n- Editing transactions is only possible from the device from which it was created.\n\n- Sync works automatically when data changes on any device. If the sync status number is the same on all devices, then they are already synced.\n\n- If the amounts on the accounts on different devices do not match, edit them before or after the start of synchronization, bringing them to the same value. This will not affect your transaction history in any way.";
+
+"skill_receipts" = "SMS/Email parsing";
+"skill_receipts_help" = "Monetal can parse Email, SMS, and other sources and create corresponding transactions automatically. You can enable this feature in the Settings.";
+
+"skill_budgets" = "Expense limits";
+"skill_budgets_help" = "Use Budget editor to define limits for particular categories and track spending progress. Limits appear at the top of the Expenses tab.\nGrocery < 1200\nGames + Cinema < 500";
+
+"readOnlineDocumentation" = "Check online documentation";
+
+// Help skills
+
+"helpProjectTitle" = "Help Monetal";
+"helpProjectSubtitle" = "If you like this project and want it to develop further, please consider to support it.";
+
+"skill_rateApp" = "Rate Monetal";
+"skill_rateApp_help" = "Mobile app ratings are crucial for mobile apps because they serve as a direct reflection of user satisfaction and can significantly impact the app's visibility and success.";
+
+"skill_promote" = "Spread the word";
+"skill_promote_help" = "Share Monetal with your friends and followers on your favorite social networks. Your support means the world to me!";
+
+"skill_translate" = "Help with translations";
+"skill_translate_help" = "I do my best to improve translations. If you'd like to assist with translating to your native language or if you come across any translation errors, please reach me out.";
+
+"skill_reportBug" = "Report a bug";
+"skill_reportBug_help" = "Please report any bug you have found. We all want Monetal to be a reliable software.";
+
+"skill_donate" = "Donate to project";
+"skill_donate_help" = "If it's possible, please consider making a donation. And don't forget to write to support so I can thank you personally!";
